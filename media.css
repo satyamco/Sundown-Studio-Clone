@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    
+    nav{
+     padding-inline: 28px;
+    }
+    nav img{
+        width: 130px;
+    }
+
+   .nav-links{
+    display: none;
+   }
+   .menu-icon{
+    display: flex;
+    margin-bottom: 8px;
+   }
+}
+
+@media (max-width: 425px) {
+    
+    nav{
+     padding-inline: 18px;
+    }
+    nav img{
+        width: 110px;
+    }
+    .menu-icon{
+        margin-bottom: 4px;
+    }
+    .menu-links h4{
+        margin-right: 18px;
+    }
+
+}
